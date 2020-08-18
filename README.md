@@ -1,5 +1,5 @@
 # setAutoInterval
-Auto-Interval ([auto-interval](http://github.com/cape-/auto-interval)) is a newer
+setAutoInterval ([auto-interval](http://github.com/cape-/auto-interval)) is a newer
 [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 setInterval implementation which balances cumulative timing errors.
 
