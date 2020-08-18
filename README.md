@@ -1,8 +1,7 @@
+# setAutoInterval
 Auto-Interval ([auto-interval](http://github.com/cape-/auto-interval)) is a newer
 [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 setInterval implementation which balances cumulative timing errors.
-
-[![Build Status](https://travis-ci.org/estools/escope.png?branch=master)](https://travis-ci.org/estools/escope)
 
 ### Example with setInterval
 
