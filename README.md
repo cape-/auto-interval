@@ -1,7 +1,7 @@
 # setAutoInterval
 setAutoInterval ([auto-interval](http://github.com/cape-/auto-interval)) is a newer
 [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
-setInterval implementation which balances cumulative timing errors.
+`setInterval` implementation which balances cumulative timing errors.
 
 ### Example with setInterval
 
@@ -18,36 +18,36 @@ var clearAutoInterval = setAutoInterval(() => console.log("The Date.now() is ", 
 setTimeout(clearAutoInterval, 5000) // Finish after 5s
 ```
 
-### What's the difference?
+## What's the difference?
 
-Comparison of gap between ETA (Expected Time) and Actual Run Time in setInterval() and setAutoInterval(). 
+##### Comparison of gap between ETA (Expected Time) and Actual Run Time in `setInterval()` and `setAutoInterval()`. 
 
 ![Demo](/img/graph-comparison.png)
 
-Time Table for setInterval()
+##### Time Table for setInterval()
 
 ![Demo](/img/demo_setInterval.png)
 
-Time Table for setAutoInterval()
+##### Time Table for setAutoInterval()
 
 ![Demo](/img/demo_setAutoInterval.png)
 
 
-### Demos and Tools
+## Advantages
+
+- Same function signature as `setInterval()`
+- Ultra-lightweight
+- Minimum code adaptation
+
+## Demos and Tools
 
 Demonstration is [here](http://github.com/cape-/auto-interval/examples).
 
-![Demo](https://f.cloud.github.com/assets/75759/46292as0/7aa6dd40-b4f5-11e2-9f07-9f4e8d0415f9.gif)
+![Demo](/img/demo_setAutoInterval_acuracy.png)
 
+![Demo](/img/demo_setInterval_acuracy.png)
 
-And there are tools constructed on Escope.
-
-- [Esmangle](https://github.com/estools/esmangle) is a minifier / mangler / optimizer.
-- [Eslevels](https://github.com/mazurov/eslevels) is a scope levels analyzer and [SublimeText plugin for scope context coloring](https://github.com/mazurov/sublime-levels) is constructed on it.
-- [Esgoggles](https://github.com/keeyipchan/esgoggles) is JavaScript code browser.
-
-
-### License
+## License
 
 Copyright (C) 2020 [Lautaro Capella](http://github.com/cape-)
  (twitter: [@PkuyApp](https://twitter.com/AppPkuy)).
