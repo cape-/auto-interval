@@ -1,0 +1,22 @@
+{
+  "name": "auto-interval",
+  "version": "1.0.0",
+  "description": "A newer, timing-error-free version of setInterval()",
+  "main": "setAutoInterval.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "auto-interval"
+  },
+  "keywords": [
+    "setInterval",
+    "interval",
+    "clearInterval",
+    "setTimeout",
+    "clearTimeout"
+  ],
+  "author": "Lautaro Capella <laucape@gmail.com>",
+  "license": "Apache License 2.0"
+}
