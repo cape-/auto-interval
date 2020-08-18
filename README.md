@@ -18,6 +18,11 @@ var clearAutoInterval = setAutoInterval(() => console.log("The Date.now() is ", 
 setTimeout(clearAutoInterval, 5000) // Finish after 5s
 ```
 
+### What's the difference?
+
+![Demo](/img/graph-comparison.png)
+
+
 ### Demos and Tools
 
 Demonstration is [here](http://github.com/cape-/auto-interval/examples).
