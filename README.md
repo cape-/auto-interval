@@ -20,7 +20,14 @@ setTimeout(clearAutoInterval, 5000) // Finish after 5s
 
 ### What's the difference?
 
+Comparison of gap between ETA (Expected Time) and Actual Run Time in setInterval() and setAutoInterval(). 
 ![Demo](/img/graph-comparison.png)
+
+Time Table for setInterval()
+![Demo](/img/demo_setInterval.png)
+
+Time Table for setAutoInterval()
+![Demo](/img/demo_setAutoInterval.png)
 
 
 ### Demos and Tools
