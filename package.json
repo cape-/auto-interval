@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "auto-interval"
+    "url": "https://github.com/cape-/auto-interval/"
   },
   "keywords": [
     "setInterval",

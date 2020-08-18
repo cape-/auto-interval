@@ -13,7 +13,7 @@ setTimeout(clearInterval, 5000, intervalID) // Finish after 5s
 ### Example with setAutoInterval
 
 ```js
-const { setAutoInterval } = require('../setAutoInterval')
+const { setAutoInterval } = require("auto-interval")
 var clearAutoInterval = setAutoInterval(() => console.log("The Date.now() is ", Date.now()), 100)
 setTimeout(clearAutoInterval, 5000) // Finish after 5s
 ```
