@@ -1,6 +1,6 @@
 {
   "name": "auto-interval",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A newer, timing-error-free version of setInterval()",
   "main": "setAutoInterval.js",
   "scripts": {
